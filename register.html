@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Easy Monday Task Manager</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+    <div class="register-container">
+        <div class="logo">
+            <a class="navbar-brand" href="index.html">
+                <span class="easy-monday">EASY MONDAY</span>
+                <img src="images/easymonday.png" alt="Icon" class="icon">
+                <span class="task-manager">task manager</span>
+            </a>
+        </div>
+        <div class="register-form">
+            <h2>Welcome to Easy Monday</h2>
+            <button class="btn btn-google"><img src="images/google.png" alt="Google Logo"> Continue with Google</button>
+            <div class="divider">Or</div>
+            <form id="register-form">
+                <input type="email" name="email" class="form-control" placeholder="name@company.com" required>
+                <button type="submit" class="btn btn-continue">Continue</button>
+            </form>
+            <p class="terms">By proceeding, you agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></p>
+            <p class="login">Already have an account? <a href="login.html">Log in</a></p>
+        </div>
+        <div class="orange-panel"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script>
+        document.getElementById('register-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            window.location.href = 'register1.html';
+        });
+    </script>
+</body>
+</html>

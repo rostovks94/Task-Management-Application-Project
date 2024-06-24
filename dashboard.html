@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Dashboard</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">
+            <span class="easy-monday">EASY MONDAY</span>
+            <img src="images/easymonday.png" alt="Icon" class="icon">
+            <span class="task-manager">task manager</span>
+        </a>
+    </nav>
+    <div class="container mt-5">
+        <h1 class="text-center">Task Dashboard</h1>
+        <div class="d-flex justify-content-center align-items-center mb-4">
+            <button class="btn btn-primary mr-2" data-toggle="modal" data-target="#taskModal">New Task</button>
+        </div>
+
+        <div class="accordion" id="taskAccordion">
+            <div class="card">
+                <div class="card-header" id="headingAll">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseAll" aria-expanded="true" aria-controls="collapseAll">
+                            All Tasks
+                        </button>
+                    </h2>
+                </div>
+
+                <div id="collapseAll" class="collapse show" aria-labelledby="headingAll" data-parent="#taskAccordion">
+                    <div class="card-body">
+                        <div class="row" id="taskList">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingActive">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseActive" aria-expanded="false" aria-controls="collapseActive">
+                            Active Tasks
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseActive" class="collapse" aria-labelledby="headingActive" data-parent="#taskAccordion">
+                    <div class="card-body">
+                        <div class="row" id="activeTaskList">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingCompleted">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseCompleted" aria-expanded="false" aria-controls="collapseCompleted">
+                            Completed Tasks
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseCompleted" class="collapse" aria-labelledby="headingCompleted" data-parent="#taskAccordion">
+                    <div class="card-body">
+                        <div class="row" id="completedTaskList">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="taskModal" tabindex="-1" role="dialog" aria-labelledby="taskModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="taskModalLabel">Task Details</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="taskForm">
+                        <div class="form-group">
+                            <label for="taskTitle">Title</label>
+                            <input type="text" class="form-control" id="taskTitle" placeholder="Enter task title" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="taskDescription">Description</label>
+                            <textarea class="form-control" id="taskDescription" rows="3" placeholder="Enter task description" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="taskDueDate">Due Date</label>
+                            <input type="date" class="form-control" id="taskDueDate" required>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <button type="submit" class="btn btn-primary">Save Task</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="js/dashboard.js"></script>
+</body>
+</html>

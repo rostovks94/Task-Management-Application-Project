@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy Monday Task Manager</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <span class="easy-monday">EASY MONDAY</span>
+            <img src="images/easymonday.png" alt="Icon" class="icon" style="width: 20px; height: 20px;">
+            <span>task manager</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto"></ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="images/globe-icon.png" alt="Globe Icon" style="width: 20px; height: 20px;">
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="languageDropdown">
+                        <a class="dropdown-item" href="#" onclick="selectLanguage(this)">English</a>
+                        <a class="dropdown-item" href="#" onclick="selectLanguage(this)">Español</a>
+                        <a class="dropdown-item" href="#" onclick="selectLanguage(this)">Français</a>
+                        <a class="dropdown-item" href="#" onclick="selectLanguage(this)">Deutsch</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-account" href="login.html">Go to my account</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="jumbotron text-center">
+        <h1>WORK SMARTER WITH EASY MONDAY TASK MANAGER</h1>
+        <p class="lead">Your ultimate tool for planning, managing, and tracking all your tasks in one intuitive platform.</p>
+        <hr class="my-4">
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Automate Your Tasks</h5>
+                        <p class="card-text">Streamline your workflow by automating repetitive tasks, saving you time and effort.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Collaborate Effectively</h5>
+                        <p class="card-text">Enhance team collaboration with real-time updates, comments, and file sharing.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Track Progress Easily</h5>
+                        <p class="card-text">Monitor task progress with intuitive dashboards and keep your projects on track.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron trial-jumbotron mt-5 text-center">
+        <h2>Try trial period for one month</h2>
+        <a class="btn btn-trial" href="register.html">Get started</a>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="review">
+                    <p class="review-text">"Easy Monday has transformed the way we manage our tasks. It's user-friendly and incredibly efficient."</p>
+                    <p class="review-author">Anna B. | Reviewed on G2</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="review">
+                    <p class="review-text">"A fantastic tool for team collaboration and task tracking. Highly recommended for any business."</p>
+                    <p class="review-author">John D. | Reviewed on Capterra</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="review">
+                    <p class="review-text">"Easy Monday's intuitive design and powerful features make task management a breeze. Love it!"</p>
+                    <p class="review-author">Emma R. | Reviewed on Trustpilot</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text-center mt-4">
+        <a class="btn btn-account" href="register.html">Get started</a>
+    </div>
+
+    
+    <div class="join-customers mt-5 text-center">
+        <div class="container">
+            <h2>Join 100,000+ customers that use Easy Monday</h2>
+            <a class="btn btn-get-started" href="register.html">Get started</a>
+        </div>
+    </div>
+    <div class="footer mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Easy Monday</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">24/7 support</a></li>
+                        <li><a href="#">Customer stories</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Contact sales</a></li>
+                        <li><a href="#">Integrations</a></li>
+                        <li><a href="#">Enterprise</a></li>
+                        <li><a href="#">Templates</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h5>Follow Us</h5>
+                    <a href="#"><img src="images/linkedin.png" alt="LinkedIn" style="width: 24px; height: 24px; margin: 0 10px;"></a>
+                    <a href="#"><img src="images/facebook.png" alt="Facebook" style="width: 24px; height: 24px; margin: 0 10px;"></a>
+                    <a href="#"><img src="images/twitter.png" alt="Twitter" style="width: 24px; height: 24px; margin: 0 10px;"></a>
+                    <a href="#"><img src="images/instagram.png" alt="Instagram" style="width: 24px; height: 24px; margin: 0 10px;"></a>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-12 text-center">
+                    <p>&copy; 2024 Easy Monday. All Rights Reserved.</p>
+                    <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a> | <a href="#">Accessibility Statement</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let dropdownTimeout;
+
+        function selectLanguage(element) {
+ 
+            document.querySelectorAll('.dropdown-item').forEach(item => {
+                item.classList.remove('selected');
+            });
+
+           
+            element.classList.add('selected');
+
+          
+            clearTimeout(dropdownTimeout);
+
+         
+            dropdownTimeout = setTimeout(function() {
+                if (!document.querySelector('.dropdown-menu:hover') && !document.querySelector('#languageDropdown:hover')) {
+                    $('#languageDropdown').dropdown('toggle');
+                }
+            }, 2000);
+        }
+
+     
+               document.querySelector('.dropdown-menu').addEventListener('mouseenter', function() {
+            clearTimeout(dropdownTimeout);
+        });
+        document.querySelector('#languageDropdown').addEventListener('mouseenter', function() {
+            clearTimeout(dropdownTimeout);
+        });
+
+    
+        document.querySelector('.dropdown-menu').addEventListener('mouseleave', function() {
+            dropdownTimeout = setTimeout(function() {
+                if (!document.querySelector('.dropdown-menu:hover') && !document.querySelector('#languageDropdown:hover')) {
+                    $('#languageDropdown').dropdown('toggle');
+                }
+            }, 2000);
+        });
+        document.querySelector('#languageDropdown').addEventListener('mouseleave', function() {
+            dropdownTimeout = setTimeout(function() {
+                if (!document.querySelector('.dropdown-menu:hover') && !document.querySelector('#languageDropdown:hover')) {
+                    $('#languageDropdown').dropdown('toggle');
+                }
+            }, 2000);
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

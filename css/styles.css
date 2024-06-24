@@ -1,0 +1,223 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand .icon {
+    margin-left: 5px; 
+    margin-right: 5px; 
+}
+
+.navbar-brand .easy-monday {
+    color: orange;
+    font-weight: bold;
+}
+
+.btn-account {
+    background: linear-gradient(to right, #f09819, #edde5d);
+    color: white;
+    border-radius: 50px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.btn-account:hover {
+    background: linear-gradient(to right, #edde5d, #f09819);
+    color: white;
+}
+
+.dropdown-toggle:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.dropdown-menu {
+    background-color: rgba(255, 255, 255, 0.5) !important; 
+}
+
+.dropdown-item:hover {
+    background-color: #eff0f1; 
+}
+
+.dropdown-item.selected {
+    color: rgb(244, 169, 29); 
+}
+
+.navbar-nav .nav-item {
+    margin-left: 10px; 
+}
+
+.jumbotron {
+    margin-top: 5cm; 
+    background-color: rgba(243, 170, 37, 0.8); 
+    width: 100%;
+    border-radius: 0; 
+}
+
+.jumbotron h1, .jumbotron .lead {
+    text-align: center;
+    font-family: 'Arial', sans-serif; 
+}
+
+.jumbotron h1 {
+    font-weight: bold;
+    font-size: 2.5em; 
+}
+
+.jumbotron .lead {
+    font-weight: normal;
+    font-size: 1.25em; 
+}
+
+.mt-5 {
+    margin-top: 5rem !important; 
+}
+
+.mt-4 {
+    margin-top: 4rem !important; 
+}
+
+.trial-jumbotron {
+    background-color: rgba(243, 170, 37, 0.8); 
+    width: 100%;
+    border-radius: 0;
+    text-align: center;
+}
+
+.trial-jumbotron h2 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.btn-trial {
+    background: white;
+    color: #f09819;
+    border-radius: 50px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.btn-trial:hover {
+    background: linear-gradient(to right, #edde5d, #f09819);
+    color: white;
+}
+
+.review {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.review-text {
+    font-style: italic;
+}
+
+.review-author {
+    font-weight: bold;
+    color: gray;
+}
+
+.join-customers {
+    background-color: rgba(243, 170, 37, 0.8); 
+    width: 100%;
+    padding: 2rem 0;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.join-customers h2 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    color: #fff;
+}
+
+.join-customers .btn-get-started {
+    background: white;
+    color: #f09819;
+    border-radius: 50px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.join-customers .btn-get-started:hover {
+    background: linear-gradient(to right, #edde5d, #f09819);
+    color: white;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.footer a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.card {
+    border: none !important; 
+}
+
+.card-body h5 {
+    font-size: 1.5em; 
+    font-weight: bold; 
+}
+
+.card-body p {
+    font-size: 1.2em; 
+}
+
+
+@media (max-width: 768px) { 
+    .jumbotron, .trial-jumbotron, .join-customers {
+        margin-top: 2rem;
+    }
+    .navbar-brand {
+        flex-wrap: wrap;
+    }
+    .navbar-brand .task-manager {
+        margin-top: 0.5rem;
+    }
+    .navbar-nav {
+        margin-top: 1rem;
+    }
+    .container {
+        padding: 0 1rem;
+    }
+    .jumbotron h1 {
+        font-size: 2em; 
+    }
+    .jumbotron .lead {
+        font-size: 1em;
+    }
+    .card-body h5 {
+        font-size: 1.25em; 
+    }
+    .card-body p {
+        font-size: 1em; 
+    }
+    .footer {
+        padding: 1rem 0;
+    }
+    .footer a {
+        margin: 0 0.5rem; 
+    }
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="logo">
+            <a class="navbar-brand" href="index.html">
+                <span class="easy-monday">EASY MONDAY</span>
+                <img src="images/easymonday.png" alt="Icon" class="icon">
+                <span class="task-manager">task manager</span>
+            </a>
+        </div>
+        <div class="login-form">
+            <h2>Log in to your account</h2>
+            <form class="needs-validation" novalidate>
+                <div class="form-group">
+                    <label for="email">Enter your email address</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="name@company.com" required>
+                    <div class="invalid-feedback">
+                        Please enter a valid email address.
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="password">Enter your password</label>
+                    <input type="password" class="form-control" id="password" name="password" placeholder="Password" required>
+                    <div class="invalid-feedback">
+                        Please enter your password.
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-next">Next</button>
+            </form>
+            <hr>
+            <button class="google-login">
+                <img src="images/google.png" alt="Google Icon">
+                Sign in with Google
+            </button>
+            <p>Don't have an account yet? <a href="register.html" class="orange-link">Sign up</a></p>
+            <p>Can't log in? <a href="#" class="orange-link">Visit our help center</a></p>
+        </div>
+        <div class="orange-panel"></div>
+    </div>
+    <script>
+        (function() {
+            'use strict';
+            window.addEventListener('load', function() {
+                var forms = document.getElementsByClassName('needs-validation');
+                Array.prototype.filter.call(forms, function(form) {
+                    form.addEventListener('submit', function(event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+        })();
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

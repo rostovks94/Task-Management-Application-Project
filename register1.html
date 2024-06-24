@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/register1.css">
+</head>
+<body>
+    <div class="register-container">
+        <div class="logo">
+            <a class="navbar-brand" href="index.html">
+                <span class="easy-monday">EASY MONDAY</span>
+                <img src="images/easymonday.png" alt="Icon" class="icon">
+                <span class="task-manager">task manager</span>
+            </a>
+        </div>
+        <div class="register-form">
+            <h2>Create your account</h2>
+            <form id="registerForm">
+                <div class="form-group">
+                    <label for="fullName">Full name</label>
+                    <input type="text" id="fullName" class="form-control" placeholder="Enter your full name" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" class="form-control" placeholder="Enter at least 8 characters" required>
+                </div>
+                <div class="form-group">
+                    <label for="accountName">Account name (optional)</label>
+                    <input type="text" id="accountName" class="form-control" placeholder="For example, company's or department's name">
+                </div>
+                <button type="submit" class="btn-continue">Continue</button>
+            </form>
+        </div>
+        <div class="orange-panel"></div>
+    </div>
+    <script>
+        document.getElementById('registerForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            window.location.href = 'dashboard.html';
+        });
+    </script>
+</body>
+</html>
