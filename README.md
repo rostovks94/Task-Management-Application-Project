@@ -24,7 +24,7 @@ To run this project locally, follow these steps:
 
 1. **Clone the Repository:**
    ```sh
-   git clone https://github.com/your-username/task-dashboard.git
+   git clone https://github.com/rostovks94/Task-Management-Application-Project.git
 
 2.	Navigate to the Project Directory:
    cd task-dashboard
@@ -50,7 +50,7 @@ python -m http.server 8000
 
 You can use the project online without cloning it. Simply go to the following link:
 
-[Task Management Application](https://rostovks94.github.io/Task-Management-Application-Project/)
+https://rostovks94.github.io/Task-Management-Application-Project/
 
 Note on Google Form
 
