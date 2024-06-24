@@ -36,7 +36,7 @@ To run this project locally, follow these steps:
 4.	Using a Local Web Server (optional but recommended):
   	•	You can use a local web server to ensure all functionalities work correctly, especially if you encounter any CORS issues.
 	  •	If you have Python installed, you can run a simple HTTP server:
-# For Python 3.x
+#№ For Python 3.x
 python -m http.server 8000
 	•	Then, navigate to http://localhost:8000 in your web browser.
  
