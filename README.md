@@ -16,7 +16,7 @@ The primary goal of this project was to create a user-friendly task management a
 - A modal form for adding and editing tasks.
 - A collapsible accordion for organizing tasks.
 
-## Google Sign-In Issue
+## Google Sign-In
 Please note that the Google Sign-In functionality is not implemented in this project. This was not part of the project requirements and is intended to be handled separately.
 
 ## Running the Project Locally
@@ -45,6 +45,18 @@ python -m http.server 8000
 	•	Go to the repository settings on GitHub.
 	•	Under the “Pages” section, select the branch (usually main or master) and the root folder for GitHub Pages.
 	•	After saving, GitHub will provide a link to access the project online.
+
+**2: Through GitHub Pages** 
+
+You can use the project online without cloning it. Simply go to the following link:
+
+[Task Management Application](https://rostovks94.github.io/Task-Management-Application-Project/)
+
+Note on Google Form
+
+The Google Form does not work in this project as it was not part of the initial development plan and is not a feature of the application.
+
+This README provides complete guidance for users to use your application in two ways.
 
 # Project Structure
 
