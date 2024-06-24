@@ -58,7 +58,7 @@ The Google Form does not work in this project as it was not part of the initial 
 
 This README provides complete guidance for users to use your application in two ways.
 
-# Project Structure
+## Project Structure
 
 The project consists of the following main components:
 task-dashboard/
@@ -84,6 +84,6 @@ task-dashboard/
 ├── register.html
 └── register1.html
    
-# Conclusion
+## Conclusion
 
 This project demonstrates the use of HTML, CSS, JavaScript, and Bootstrap to create a functional task management application. The project can be easily extended to include more advanced features such as user authentication, database integration, and additional task management functionalities.
