@@ -84,6 +84,6 @@ task-dashboard/
 ├── register.html
 └── register1.html
    
-Conclusion
+# Conclusion
 
 This project demonstrates the use of HTML, CSS, JavaScript, and Bootstrap to create a functional task management application. The project can be easily extended to include more advanced features such as user authentication, database integration, and additional task management functionalities.
