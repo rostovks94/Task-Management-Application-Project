@@ -46,7 +46,7 @@ python -m http.server 8000
 	•	Under the “Pages” section, select the branch (usually main or master) and the root folder for GitHub Pages.
 	•	After saving, GitHub will provide a link to access the project online.
 
-**2: Through GitHub Pages** 
+**2. Through GitHub Pages** 
 
 You can use the project online without cloning it. Simply go to the following link:
 
