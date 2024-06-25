@@ -1,7 +1,7 @@
 # Task Management Application Project
 
 ## Overview
-Task Dashboard is a web application designed to help users manage their tasks effectively. The application allows users to add, view, and manage tasks, categorizing them into active and completed tasks. The project was built with the aim of providing a simple yet functional interface for task management.
+Task Management Application Project is a web application designed to help users manage their tasks effectively. The application allows users to add, view, and manage tasks, categorizing them into active and completed tasks. The project was built with the aim of providing a simple yet functional interface for task management.
 
 ## Technologies Used
 - **HTML**: For structuring the web pages.
@@ -35,7 +35,7 @@ To run this project locally, follow these steps:
 
 4.	Using a Local Web Server (optional but recommended):
   	•	You can use a local web server to ensure all functionalities work correctly, especially if you encounter any CORS issues.
-	  •	If you have Python installed, you can run a simple HTTP server:
+	•	If you have Python installed, you can run a simple HTTP server:
 #№ For Python 3.x
 python -m http.server 8000
 	•	Then, navigate to http://localhost:8000 in your web browser.
@@ -46,15 +46,11 @@ python -m http.server 8000
 	•	Under the “Pages” section, select the branch (usually main or master) and the root folder for GitHub Pages.
 	•	After saving, GitHub will provide a link to access the project online.
 
-**2. Through GitHub Pages** 
+2. **Through GitHub Pages** 
 
 You can use the project online without cloning it. Simply go to the following link:
 
 https://rostovks94.github.io/Task-Management-Application-Project/
-
-Note on Google Form
-
-The Google Form does not work in this project as it was not part of the initial development plan and is not a feature of the application.
 
 This README provides complete guidance for users to use your application in two ways.
 
