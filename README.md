@@ -24,7 +24,7 @@ To run this project locally, follow these steps:
 
 **Clone the Repository:**
 
-   ```sh
+   ```markdown
    git clone https://github.com/rostovks94/Task-Management-Application-Project.git
 
 2.	Navigate to the Project Directory:
