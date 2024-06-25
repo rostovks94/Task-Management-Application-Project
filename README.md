@@ -41,7 +41,7 @@ To run this project locally, follow these steps:
 python -m http.server 8000
 	•	Then, navigate to http://localhost:8000 in your web browser.
 
-
+##Or
 
 **Through GitHub Pages:**
 
