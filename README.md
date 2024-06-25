@@ -22,21 +22,21 @@ Please note that the Google Sign-In functionality is not implemented in this pro
 ## Running the Project Locally
 To run this project locally, follow these steps:
 
+```markdown
 **Clone the Repository:**
 
-   ```markdown
-   git clone https://github.com/rostovks94/Task-Management-Application-Project.git
+git clone https://github.com/rostovks94/Task-Management-Application-Project.git
 
-2.	Navigate to the Project Directory:
-   	cd task-dashboard
+2. Navigate to the Project Directory:
+   cd task-dashboard
 
-3.	Open index.html in your Browser:
-		• You can simply double-click on the index.html file in your file explorer, or you can open it in your preferred web browser using:
-  open index.html
+3. Open index.html in your Browser:
+   - You can simply double-click on the index.html file in your file explorer, or you can open it in your preferred web browser using:
+     open index.html
 
-4.	Using a Local Web Server (optional but recommended):
-  	•	You can use a local web server to ensure all functionalities work correctly, especially if you encounter any CORS issues.
-	•	If you have Python installed, you can run a simple HTTP server:
-#№ For Python 3.x
-python -m http.server 8000
-	•	Then, navigate to http://localhost:8000 in your web browser.
+4. Using a Local Web Server (optional but recommended):
+   - You can use a local web server to ensure all functionalities work correctly, especially if you encounter any CORS issues.
+   - If you have Python installed, you can run a simple HTTP server:
+     # For Python 3.x
+     python -m http.server 8000
+   - Then, navigate to http://localhost:8000 in your web browser.
