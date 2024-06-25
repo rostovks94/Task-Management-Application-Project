@@ -22,7 +22,8 @@ Please note that the Google Sign-In functionality is not implemented in this pro
 ## Running the Project Locally
 To run this project locally, follow these steps:
 
-1. **Clone the Repository:**
+	**Clone the Repository:**
+
    ```sh
    git clone https://github.com/rostovks94/Task-Management-Application-Project.git
 
@@ -42,7 +43,7 @@ python -m http.server 8000
 
 
 
-2. **Through GitHub Pages** 
+	**Through GitHub Pages:**
 
 You can use the project online without cloning it. Simply go to the following link:
 
