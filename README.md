@@ -22,13 +22,13 @@ Please note that the Google Sign-In functionality is not implemented in this pro
 ## Running the Project Locally
 To run this project locally, follow these steps:
 
-	**Clone the Repository:**
+**Clone the Repository:**
 
    ```sh
    git clone https://github.com/rostovks94/Task-Management-Application-Project.git
 
 2.	Navigate to the Project Directory:
-   cd task-dashboard
+   	cd task-dashboard
 
 3.	Open index.html in your Browser:
 		• You can simply double-click on the index.html file in your file explorer, or you can open it in your preferred web browser using:
@@ -43,7 +43,7 @@ python -m http.server 8000
 
 
 
-	**Through GitHub Pages:**
+**Through GitHub Pages:**
 
 You can use the project online without cloning it. Simply go to the following link:
 
