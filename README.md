@@ -39,12 +39,7 @@ To run this project locally, follow these steps:
 #№ For Python 3.x
 python -m http.server 8000
 	•	Then, navigate to http://localhost:8000 in your web browser.
- 
-5.	Using GitHub Pages:
-	•	Push your project to a GitHub repository.
-	•	Go to the repository settings on GitHub.
-	•	Under the “Pages” section, select the branch (usually main or master) and the root folder for GitHub Pages.
-	•	After saving, GitHub will provide a link to access the project online.
+
 
 2. **Through GitHub Pages** 
 
