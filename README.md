@@ -1,4 +1,4 @@
-# Task Dashboard
+# Task Management Application Project
 
 ## Overview
 Task Dashboard is a web application designed to help users manage their tasks effectively. The application allows users to add, view, and manage tasks, categorizing them into active and completed tasks. The project was built with the aim of providing a simple yet functional interface for task management.
