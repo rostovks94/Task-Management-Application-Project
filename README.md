@@ -22,7 +22,6 @@ Please note that the Google Sign-In functionality is not implemented in this pro
 ## Running the Project Locally
 To run this project locally, follow these steps:
 
-```markdown
 **Clone the Repository:**
 
 git clone https://github.com/rostovks94/Task-Management-Application-Project.git
@@ -40,3 +39,43 @@ git clone https://github.com/rostovks94/Task-Management-Application-Project.git
      # For Python 3.x
      python -m http.server 8000
    - Then, navigate to http://localhost:8000 in your web browser.
+
+
+**Through GitHub Pages:**
+
+You can use the project online without cloning it. Simply go to the following link:
+
+https://rostovks94.github.io/Task-Management-Application-Project/
+
+This README provides complete guidance for users to use your application in two ways.
+
+## Project Structure
+
+The project consists of the following main components:
+task-dashboard/
+├── css/
+│   ├── dashboard.css
+│   ├── login.css
+│   ├── register.css
+│   ├── register1.css
+│   └── styles.css
+├── images/
+│   ├── easymonday.png
+│   ├── facebook.png
+│   ├── globe-icon.png
+│   ├── google.png
+│   ├── instagram.png
+│   ├── linkedin.png
+│   └── twitter.png
+├── js/
+│   └── dashboard.js
+├── dashboard.html
+├── index.html
+├── login.html
+├── register.html
+└── register1.html
+   
+## Conclusion
+
+This project demonstrates the use of HTML, CSS, JavaScript, and Bootstrap to create a functional task management application. The project can be easily extended to include more advanced features such as user authentication, database integration, and additional task management functionalities.
+
