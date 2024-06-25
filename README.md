@@ -41,6 +41,7 @@ python -m http.server 8000
 	•	Then, navigate to http://localhost:8000 in your web browser.
 
 
+
 2. **Through GitHub Pages** 
 
 You can use the project online without cloning it. Simply go to the following link:
