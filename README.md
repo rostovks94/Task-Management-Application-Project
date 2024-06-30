@@ -2,6 +2,8 @@
 
 ## Overview
 Task Management Application Project is a web application designed to help users manage their tasks effectively. The application allows users to add, view, and manage tasks, categorizing them into active and completed tasks. The project was built with the aim of providing a simple yet functional interface for task management.
+This project was completed as part of a bootcamp training program, demonstrating the practical application of skills learned in web development, including front-end and back-end technologies.
+
 
 ## Technologies Used
 - **HTML**: For structuring the web pages.
