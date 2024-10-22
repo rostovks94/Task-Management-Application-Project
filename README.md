@@ -24,18 +24,20 @@ Please note that the Google Sign-In functionality is not implemented in this pro
 ## Running the Project Locally
 To run this project locally, follow these steps:
 
-**Clone the Repository:**
+1. **Clone the Repository:**
+```bash
+   git clone https://github.com/rostovks94/Task-Management-Application-Project.git
+```
 
-git clone https://github.com/rostovks94/Task-Management-Application-Project.git
-
-2. Navigate to the Project Directory:
+2. **Navigate to the Project Directory**:
+```bash
    cd task-dashboard
-
-3. Open index.html in your Browser:
-   - You can simply double-click on the index.html file in your file explorer, or you can open it in your preferred web browser using:
+```
+3. **Open index.html in your Browser**:
+   You can simply double-click on the index.html file in your file explorer, or you can open it in your preferred web browser using:
      open index.html
 
-4. Using a Local Web Server (optional but recommended):
+4. **Using a Local Web Server (optional but recommended)**:
    - You can use a local web server to ensure all functionalities work correctly, especially if you encounter any CORS issues.
    - If you have Python installed, you can run a simple HTTP server:
      ## For Python 3.x
@@ -54,6 +56,7 @@ This README provides complete guidance for users to use your application in two 
 ## Project Structure
 
 The project consists of the following main components:
+```bash
 task-dashboard/
 ├── css/
 │   ├── dashboard.css
@@ -76,8 +79,11 @@ task-dashboard/
 ├── login.html
 ├── register.html
 └── register1.html
-   
+```
+
 ## Conclusion
 
 This project demonstrates the use of HTML, CSS, JavaScript, and Bootstrap to create a functional task management application. The project can be easily extended to include more advanced features such as user authentication, database integration, and additional task management functionalities.
+
+Feel free to reach out if you have any questions or suggestions.
 
